@@ -1,0 +1,5 @@
+@hostname=localhost
+@port=5047
+
+POST http://{{hostname}}:{{port}}/hub/negotiate?negotiateVersion=1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzcGVuIiwic3ViIjoidXNwZW4iLCJqdGkiOiJiZDE2MWVmMCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTA0NyIsIm5iZiI6MTcwODQyMjI4NCwiZXhwIjoxNzE2MTk4Mjg0LCJpYXQiOjE3MDg0MjIyODUsImlzcyI6ImRvdG5ldC11c2VyLWp3dHMifQ.4thMRYcPQHwIw1ou3G3iJ1CgGk6j0Atj6oynrfwgsu8
